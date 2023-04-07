@@ -73,17 +73,13 @@ footer .attribution a {
 footer .attribution a::after {
   content: "";
   height: 2px;
-  width: 0px;
+  width: 100%;
   position: absolute;
-  left: 50%;
-  transform: translateX(-50%);
+  left: 0%;
   bottom: -2px;
   opacity: 0.8;
   transition: all ease-in-out 0.2s;
   background-color: var(--mid-violet);
-}
-footer .attribution a:hover::after {
-  width: 100%;
 }
 
 main {
