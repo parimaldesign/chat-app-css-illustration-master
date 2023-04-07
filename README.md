@@ -30,7 +30,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [Github](https://github.com/parimaldesign/chat-app-css-illustration-master)
-- Live Site URL: [Vercel](https://vercel.com/parimaldesign/chat-app-css-illustration-master)
+- Live Site URL: [Vercel](https://chat-app-css-illustration-master-alpha-one.vercel.app/)
 
 ## My process
 
