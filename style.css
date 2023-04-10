@@ -145,8 +145,15 @@ main::after {
   position: relative;
   overflow: hidden;
   padding: 12px;
+  height: 602px;
   background-color: #fff;
+  transform: scale(0.9);
+  cursor: pointer;
+  transition: all ease-in-out 0.3s;
   box-shadow: 10px 20px 50px hsla(271, 36%, 24%, 0.15);
+}
+.section-wrap .illustation .phone:hover {
+  transform: scale(1);
 }
 .section-wrap .illustation .phone .notch {
   position: absolute;
@@ -244,6 +251,7 @@ main::after {
   padding-left: 30px;
   padding-right: 15px;
   position: relative;
+  line-height: 1;
   background: linear-gradient(90deg, var(--light-megenta), var(--light-violet));
 }
 .section-wrap .illustation .phone .phone-inner .chat-wrap .cb.cb-left.cb-gradient::after {

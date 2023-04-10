@@ -161,8 +161,16 @@ main{
             position: relative;
             overflow: hidden;
             padding: 12px;
+            height: 602px;        
             background-color: #fff;
+            transform: scale(.9);
+            cursor: pointer;
+            transition: all ease-in-out .3s;
             box-shadow: 10px 20px 50px hsla(271, 36%, 24%, 0.15);
+
+            &:hover{
+                transform: scale(1)
+            }
 
             .notch{
                 position: absolute;
@@ -267,6 +275,7 @@ main{
                                 padding-left: 30px;
                                 padding-right: 15px;
                                 position: relative;
+                                line-height: 1;
                                 background: linear-gradient(90deg, var(--light-megenta), var(--light-violet));
 
                                 &::after{
